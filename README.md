@@ -1,22 +1,24 @@
-# 🛒 Automação de Testes E2E - E-Commerce (Sauce Demo)
+# 🛒 E2E Test Automation - E-Commerce (Sauce Demo)
 
-Projeto desenvolvido como portfólio profissional para demonstração de habilidades em Engenharia de QA e Automação de Testes utilizando o ecossistema moderno do **Playwright**.
+Project developed as a professional portfolio to demonstrate skills in QA Engineering and Test Automation using the modern **Playwright** ecosystem.
 
-## 🚀 Tecnologias Utilizadas
-* **Playwright** (Framework de automação)
-* **TypeScript** (Linguagem fortemente tipada)
-* **Page Object Model (POM)** (Padrão de arquitetura de código)
-* **GitHub Actions** (Integração Contínua - CI/CD)
+## 🚀 Technologies Used
+* **Playwright** (Automation framework)
+* **TypeScript** (Statically typed language)
+* **Page Object Model (POM)** (Code architecture pattern)
+* **GitHub Actions** (Continuous Integration - CI/CD)
 
-## 📌 Cenários Automatizados
-* [x] **Fluxo de Compra:** Validação de login com credenciais válidas e inserção de produto com sucesso no carrinho de compras, garantindo a integridade do fluxo principal (E2E).
+## 📌 Automated Scenarios
+* [x] **Purchase Flow:** Validates login with valid credentials and successfully adds a product to the shopping cart, ensuring the integrity of the main end-to-end flow (E2E).
 
-## 🛠️ Boas Práticas Aplicadas
-* **POM (Page Object Model):** Separação clara entre os seletores/ações da página e a lógica dos testes, facilitando a manutenção futura do código.
-* **Assertions Robustos:** Utilização dos *locators* e *assertions* nativos do Playwright para evitar testes instáveis (*flaky tests*).
+## 🛠️ Best Practices Applied
+* **POM (Page Object Model):** Clear separation between page selectors/actions and test logic for easier maintenance.
+* **Robust Assertions:** Use of Playwright's native locators and assertions to avoid flaky tests.
+* **GitHub Actions:** Continuous Integration - tests run on every commit.
 
-## 🏃 Como Rodar o Projeto
+## 🏃 How to Run the Project
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+1. Clone the repository: `git clone https://github.com/jacksonSantanna/playwright-ecommerce-portfolio.git`
+2. Install dependencies: `npm install`
+3. Install Playwright browsers: `npx playwright install`
+4. Run the tests: `npx playwright test`
